@@ -1,0 +1,13 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    color: #153C55;
+    margin: 0;
+}
+
+.text-highlight {
+    font-weight: bold;
+}

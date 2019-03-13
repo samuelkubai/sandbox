@@ -1,0 +1,12 @@
+.c-editor {
+    height: 100%;
+    padding: 0 0 71px;
+}
+
+.c-editor__workspace, .c-editor__workspace .CodeMirror {
+    height: 100%;
+}
+
+.c-editor__selected-text {
+    background: #FFF3D4;
+}

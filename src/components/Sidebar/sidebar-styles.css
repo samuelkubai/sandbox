@@ -1,0 +1,40 @@
+.c-sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    height: 100%;
+    width: 502px;
+
+    border: 1px solid #DFE6EB;
+    color: #153C55;
+    padding: 14px 8px;
+    overflow-y: scroll;
+}
+
+.c-sidebar__header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.c-sidebar__title {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.c-sidebar__sub-title {
+    font-size: 12px;
+    margin-top: 6px;
+}
+
+.c-skill-list {
+    list-style: none;
+    margin: 31px 0;
+    padding: 0;
+}
+
+.c-skill-list .c-skill-card {
+    margin: 6px 0;
+}

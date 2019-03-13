@@ -1,0 +1,36 @@
+.c-skill-card {
+    height: 73px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    background: #FFFFFF;
+    border: 1px solid #DFE6EB;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 0 20px;
+}
+
+.c-skill-card__toggle {
+    margin-right: 31px;
+}
+
+.c-skill-card__content {
+    flex: 1;
+}
+
+.c-skill-card__title {
+    font-size: 14px;
+}
+
+.c-skill-card__description {
+    color: #B5C4CF;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.c-skill-card__menu img {
+    cursor: pointer;
+}

@@ -1,0 +1,27 @@
+.c-layout {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    height: 100vh;
+}
+
+.c-layout__main-area {
+    position: relative;
+
+    height: 100%;
+    flex: 1;
+}
+
+.c-layout__footer {
+    position: absolute;
+    bottom: 0;
+
+    height: 71px;
+    width: 100%;
+}
+
+.c-layout__sidebar {
+    height: 100%;
+    width: 502px;
+}
